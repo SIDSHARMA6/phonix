@@ -35,7 +35,7 @@
   <script defer src="/__/firebase/10.7.0/firebase-app-compat.js"></script>
   <script defer src="/__/firebase/10.7.0/firebase-firestore-compat.js"></script>
   <script defer src="/__/firebase/10.7.0/firebase-auth-compat.js"></script>
-  <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+  <script defer src="/__/firebase/init.js"></script>
 
   <style>
     body {
@@ -48,18 +48,18 @@
       height: 100vh;
       font-family: 'Roboto', sans-serif;
     }
-    
+
     .loading {
       color: white;
       font-size: 18px;
       text-align: center;
     }
-    
+
     .loading::after {
       content: '';
       animation: dots 1.5s steps(5, end) infinite;
     }
-    
+
     @keyframes dots {
       0%, 20% { content: ''; }
       40% { content: '.'; }
@@ -70,7 +70,7 @@
 </head>
 <body>
   <div class="loading">Loading Phoenix Quiz</div>
-  
+
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
