@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "266240280937",
+    "project_id": "phonix-3a706",
+    "storage_bucket": "phonix-3a706.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266240280937:android:ceec80c5f296e0688295f8",
+        "android_client_info": {
+          "package_name": "com.example.joyeeform"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "266240280937-pjgqs3q8epm6nreo2uth39qoedj5b3d2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.joyeeform",
+            "certificate_hash": "a6a044174def61e04c173632dffa0f831a45e362"
+          }
+        },
+        {
+          "client_id": "266240280937-prvudhdjlb6a3i1sv9psgis01ea7g3jm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQm0FgH-mSwJiakBec20hhpKGPwohLbiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "266240280937-prvudhdjlb6a3i1sv9psgis01ea7g3jm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
